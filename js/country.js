@@ -16,7 +16,7 @@ const singlecountry = (country) => {
     return `
         <div class="country">
             <h2>${country.name.common}</h2>
-            <h3>${country.population}</h3>
+            <h3>${'Population:' + country.population}</h3>
             <img src="${country.flags.png}">
         </div>
     `
